@@ -1,0 +1,93 @@
+package com.ruoyi.common.constant;
+
+/**
+ * 缓存的key 常量
+ *
+ * @author ruoyi
+ */
+public class CacheConstants {
+    /**
+     * 登录用户 redis key
+     */
+    public static final String LOGIN_TOKEN_KEY = "official:login_tokens:";
+
+    /**
+     * 验证码 redis key
+     */
+    public static final String CAPTCHA_CODE_KEY = "official:captcha_codes:";
+
+    /**
+     * 参数管理 cache key
+     */
+    public static final String SYS_CONFIG_KEY = "official:sys_config:";
+
+    /**
+     * 字典管理 cache key
+     */
+    public static final String SYS_DICT_KEY = "official:sys_dict:";
+
+    /**
+     * 防重提交 redis key
+     */
+    public static final String REPEAT_SUBMIT_KEY = "official:repeat_submit:";
+
+    /**
+     * 限流 redis key
+     */
+    public static final String RATE_LIMIT_KEY = "official:rate_limit:";
+
+    /**
+     * 登录账户密码错误次数 redis key
+     */
+    public static final String PWD_ERR_CNT_KEY = "official:pwd_err_cnt:";
+
+    /**
+     * 用户额度
+     */
+    public static final String USER_BALANCE = "official:userBalance:";
+
+
+
+
+
+
+/*    *//**
+     * 登录用户 redis key
+     *//*
+    public static final String LOGIN_TOKEN_KEY = "login_tokens:";
+
+    *//**
+     * 验证码 redis key
+     *//*
+    public static final String CAPTCHA_CODE_KEY = "captcha_codes:";
+
+    *//**
+     * 参数管理 cache key
+     *//*
+    public static final String SYS_CONFIG_KEY = "sys_config:";
+
+    *//**
+     * 字典管理 cache key
+     *//*
+    public static final String SYS_DICT_KEY = "sys_dict:";
+
+    *//**
+     * 防重提交 redis key
+     *//*
+    public static final String REPEAT_SUBMIT_KEY = "repeat_submit:";
+
+    *//**
+     * 限流 redis key
+     *//*
+    public static final String RATE_LIMIT_KEY = "rate_limit:";
+
+    *//**
+     * 登录账户密码错误次数 redis key
+     *//*
+    public static final String PWD_ERR_CNT_KEY = "pwd_err_cnt:";
+
+    *//**
+     * 用户额度
+     *//*
+    public static final String USER_BALANCE = "official:userBalance:";*/
+}
